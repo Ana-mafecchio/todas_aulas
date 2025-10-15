@@ -1,0 +1,26 @@
+.aviso{
+    color: blue; 
+    font-style: italic;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.caixa-destaque{
+    border: 10px solid red;  /* tem que por solid pra funcionar */
+    padding: 20px; /* espaçamento */
+    text-align: center; /* onde o texto vai ficar */
+    background-color: orange;
+}
+
+.botao-interativo{
+    background-color: green;
+    color: white;
+    padding: 10px 20px; /* le o de cima la kpt */ 
+    cursor: pointer; /* maozinha pra clica la tlgd */ 
+}
+
+.botao-interativo:hover { /* hover é pairar, ent quando vc passar o mouse em cima, ele vai mudar de cor */ 
+    background-color: aqua;
+    font-weight: bold; /* deixa o texto em negrito */
+}
+

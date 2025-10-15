@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* estilo para telas grandes */
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f0f0f0;
+            font-size: 20px;
+        }
+        img{
+            display: flex;
+            align-items: center;
+            border: 3px solid black;
+            border-radius: 50%;
+
+          
+        }
+        /* Media query para telas menores que 600px */
+        @media (max-width: 600px){
+            body {
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 background-color: #1d7aa8;
+                 font-size: 16px;
+            }
+            img{
+                display: flex;
+                align-items: center;
+                border: 3px solid black;
+                border-radius: 50%;
+                width: 150px;
+                height: 150px;
+               
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Media Query</h1>
+    <p>Este exemplo mostra como usar <strong>media queries</strong> para tornar a página responsiva.<br>
+    Reduza a largura da janela para ver a mudança de cor e tamanho da fonte.</p>
+    
+    <div class="img">
+        <img src="img/miku sad _.jpg" alt="" width="300px">
+    </div>
+
+
+    <video width="320" height="240" controls>
+        <source src="video-fundo.mp4" type="video/mp4">
+        <source src="movie.ogg" type="video/ogg">
+        Your browser does not support the video tag
+
+    </video>
+    <audio controls>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="horse.mp3" type="audio/mpeg">
+        Your browser does not support the video tag
+    </audio>
+
+  
+</body>
+</html>
